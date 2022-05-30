@@ -86,7 +86,7 @@ characterSprite.style.position = 'absolute'
 characterSprite.style.backgroundImage = 'url(character.png)'
 characterSprite.style.transform = 'scale(' + characterScale + ')'
 
-playAmbient()
+//playAmbient()
 
 moveCharacter(charactepositionX, charactepositionY)
 gameArea.appendChild(characterSprite)
